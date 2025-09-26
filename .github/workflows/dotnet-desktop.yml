@@ -3,7 +3,7 @@ name: Build and Deploy .NET to Azure
 on:
   push:
     branches:
-      - main   # faqat main branchga push bo'lganda ishlaydi
+      - master   # faqat main branchga push bo'lganda ishlaydi
 
 jobs:
   build-and-deploy:
